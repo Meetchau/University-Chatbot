@@ -1,14 +1,14 @@
-# Chatbot README
+Chatbot README
 
 So, this is a simple rule-based chatbot, where all the intents are defined manually. Since it's a small-scale chatbot, this approach is much easier and straightforward.
 
-## How It Works:
+How It Works:
 - The chatbot uses a list of "intents" to figure out the right response based on what the user says.
 - It checks if the user input matches any of the patterns, and if it does, it gives a random response from the matched intent.
 - It converts all the letters to lowercase to avoid any case sensitivity errors.
 - If it doesn't find any match, it'll let you know it didn't quite understand and ask you to try again.
 
-### Features:
+Features:
 - Greeting: Replies to greetings like "Hi", "Hello", "What's up", etc.
 - Goodbye: Replies to exit phrases like "Bye", "See you later", etc.
 - Creator: Tells you that it was made by college students.
@@ -18,7 +18,7 @@ So, this is a simple rule-based chatbot, where all the intents are defined manua
 - Courses: Lists out the courses offered by the college.
 - Fees: Provides a link for fee details.
 
-### How to Use:
+How to Use:
 1. Run the script.
 2. Type your message or question.
 3. The chatbot will respond based on the patterns it finds.
